@@ -1,6 +1,13 @@
 # Mini-Terminal
 
-C programme to implement a minor version of the shell. The programme should provide a prompt for the user to type the commands. The list of commands which need to be implemented are:  
+C programme to implement a minor version of the shell. The programme should provide a prompt for the user to type the commands. In computing, a shell is a computer program which exposes an operating system's services to a human user or other programs. In general, operating system shells use either a command-line interface (CLI) or graphical user interface (GUI), depending on a computer's role and particular operation. It is named a shell because it is the outermost layer around the operating system.
+
+Command-line shells require the user to be familiar with commands and their calling syntax, and to understand concepts about the shell-specific scripting language (for example, bash).
+
+Graphical shells place a low burden on beginning computer users, and are characterized as being easy to use. Since they also come with certain disadvantages, most GUI-enabled operating systems also provide CLI shells.
+Here we are implementing a minor version of shell in ubuntu using C.
+                                        This shell version is based on Command-line interface shell. In this shell version we include:
+
 •	DIR – This should list all the files in the current directory 
 •	PWD – It should display the present working directory’s absolute path
 •	JOB – This should display all the user level tasks which are currently running on the machine
